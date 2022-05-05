@@ -1,0 +1,279 @@
+
+/*this is a comment*/
+/* 
+this is a multiple
+lines comment
+*/
+/* google fonts 
+font-family: 'Caveat', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*Global */
+*{
+    margin: 0;
+    font-family: 'Caveat', cursive;
+}
+body{
+    color: rgb(236, 226, 226); 
+    /* https://www.pexels.com free picture */
+    background-image: url("https://images.pexels.com/photos/3785931/pexels-photo-3785931.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+    /*Just one image display*/
+    background-repeat: no-repeat;
+    /* image fixed to the monitor*/
+    background-attachment: fixed;
+    background-size: cover;
+    }
+/* header*/
+
+header{
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/2468056/pexels-photo-2468056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    height: 40vh;
+    background-position: center center;
+    background-size: cover;
+    padding: 10px 20px 10px 20px;
+}
+
+header h1{
+    color: rgb(0,0,0);
+    font-size: 60px;
+    text-shadow: 2px 2px white;
+ }
+
+header h2{ 
+    font: italic bold "Helvetica";
+    color: rgb(236, 226, 226);   
+    text-shadow: 2px 2px rgb(24, 25, 21);
+    }
+
+header .social_media{
+        margin-top: 20px;
+    }
+
+header .social_media a{
+        font-size: 30px;
+        margin-right: 40px;
+        color: #f4f0f0;
+        padding: 10px;
+    }
+
+header .menu{
+        font-size: 25px;
+        background-color: hsla(150, 29%, 93%, 0.784);
+        color: black;
+        margin-right: 20px;
+        padding: 10px;
+    }
+
+/* titles */
+h3,h4{
+    color: rgb(189, 232, 176);
+    border-bottom: 3px solid rgb(217, 232, 232); 
+    margin-left: 20px;
+    text-transform: uppercase;
+    text-decoration: double;
+    text-shadow: 2px 2px rgb(24, 25, 21);
+    font-family: 'Caveat', cursive;
+    }
+
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35;
+}
+
+/* Images*/
+.myPic{ 
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 50%;
+}
+img{ 
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+}
+
+/* paragraph */
+mark{
+    text-shadow: none;
+    text-transform: capitalize;
+}
+
+p{
+    font-size: 16px; 
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 1px 1px rgb(94, 112, 39);
+}
+
+.my-p{
+    font-size:17px;
+    color: #f4f0f0; 
+    font-family: 'Roboto', sans-serif;
+}
+
+#hobby{
+    color: #eeff00fb;
+    }
+
+/*Tables*/
+table {
+    border: none;
+    width: 50%;
+    border-collapse: collapse;
+}
+td{
+    padding: 10px 10px 10px 10px;
+}
+caption
+{
+    font-size: 20px;
+}
+/*References*/
+a{
+  text-decoration: none;
+  margin-right: 10px;
+}
+.blackLetter{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: none;
+}
+/*menu*/
+nav{
+    color: rgb(0, 0, 0);
+}
+
+.fa-youtube
+{
+    color: red;
+    background-color: white;
+}
+.fa-researchgate
+{
+    color: green;
+    background-color: white;
+}
+
+.fa-linkedin
+{
+    color: blue;
+    background-color: white;
+}
+
+.fa-github
+{
+    color: rgb(167, 137, 27);
+    background-color: white;
+}
+
+/* footer*/
+footer{
+    background-color: hsla(150, 29%, 93%, 0.784);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+   }
+  
+  
+  footer nav{
+    font-size: 23px;
+    margin-right: 20px;
+}
+
+
+/* containers */
+
+.form{
+	background-color: rgb(35, 42, 20, 80%);
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-top: 15px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+.container{
+    background-color: #22272599;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px 10px 20px;
+    }
+
+/*index main*/
+div.services
+{background-color: rgb(192, 206, 206);
+    
+    /*t r b l*/
+    margin:10px 0 10px 0;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+div.services p
+{line-height: 2;}
+
+div.services-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+    width: 50px;
+    text-align: center;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px auto 10px auto;
+}
+div.services-icon i{
+    font-size: 25px;
+    color: black;
+}
+
+/*proyects */
+ul, ol{
+    background-color: #dedede;
+    width: 50%;
+    padding: 20;
+}
+ ul li{
+    border-left: 5px solid black;
+    padding: 10px;
+    background-color: #a2a2a2;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ol li{
+    border-left: 5px solid rgb(10, 53, 117);
+    padding: 10px;
+    background-color: #a2a2a2;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+ ul li:hover, ol li:hover{
+    background-color: #ffcc00;
+    font-weight: 700;
+}
+
+ ol li{
+    color: #434343;
+ }
+
+ ul li{
+    color: black;
+}
+
+
+
+  
+  
+
+
